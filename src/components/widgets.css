@@ -1,0 +1,37 @@
+.widgets{
+    flex: 0.3;
+}
+.widgets__widgetcContainer > .twittBox{
+display: none !important;
+}
+.widgets__input {
+    display: flex;
+    align-items: center;
+    background: var(--bg);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.widgets__input .MuiSvgIcon-root{
+    color: gray !important;
+}
+.widgets__input input {
+    border: none;
+    background: var(--bg);
+}
+
+.widgets__input input:focus {
+    outline: none;
+}
+.widgets__widgetcContainer{
+     margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background: #f5f8fa;
+    border-radius: 20px;
+}
+.widgets__widgetcContainer > h2{
+    font-size: 18px;
+    font-weight: 800;
+}
